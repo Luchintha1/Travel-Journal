@@ -27,14 +27,14 @@ header{
 
 article.main-article{
   display: flex;
-  margin-bottom: 36px;
+  margin-bottom: 50px;
 }
 
 article.main-article .main-img-container{
-  width: 125px;
-  height: 168px;
-  margin-right: 19px;
-  border-radius: 5px;
+  width: 180px;
+  height: 200px;
+  margin-right: 25px;
+  border-radius: 10px;
   flex-shrink: 0;
   overflow: hidden;
 }
@@ -46,7 +46,7 @@ article.main-article .main-img{
 }
 
 .info-container .marker{
-  width: 7px;
+  width: 15px;
   margin-right: 4px;
 }
 
