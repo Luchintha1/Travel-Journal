@@ -11,6 +11,10 @@ header{
   color: white;
 }
 
+.container{
+  margin: 45px 40px;
+}
+
 .globe-marker{
   width: 80px;
   margin-right: 7px;
@@ -19,7 +23,64 @@ header{
 
 .navbar-h1{
   font-size: 2rem;
+}
 
+article.main-article{
+  display: flex;
+  margin-bottom: 36px;
+}
+
+article.main-article .main-img-container{
+  width: 125px;
+  height: 168px;
+  margin-right: 19px;
+  border-radius: 5px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+article.main-article .main-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-container .marker{
+  width: 7px;
+  margin-right: 4px;
+}
+
+.info-container span.entry-country{
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-right: 12px;
+}
+
+.info-container a {
+    color: #2B283A;
+    font-size: 0.7rem;
+}
+
+.info-container a:visited {
+    color: #918E9B;
+}
+
+.info-container .entry-title{
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+
+.info-container .entry-text{
+  font-weight: bold;
+}
+
+.info-container p.entry-text {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
 }
 
 
